@@ -1,0 +1,183 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+#loading{
+  width: 100%;
+  height: 100vh;
+  background: #000 url('preloader.gif') no-repeat center;
+  background-size: 40%;
+  position: fixed;
+  z-index: 100;
+
+}
+
+body {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  background-color: #ADD8E6;
+}
+h1{
+  font-size: 100px;
+  color: 	#DAA520;
+  outline: none;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate{
+  0% , 10% , 20% , 30% , 40% , 50% , 60% , 70% , 80% , 90%,100%
+  {
+    color: #DAA520;
+  }
+  5%,25%,45%,65%,85%{
+    color: #fff;
+
+
+  }
+}
+.icon{
+  padding-left: 10px;
+}
+h3{
+  font-size: 30px;
+    color: 	white;
+    outline: none;
+    font-weight: bold;
+}
+.head{
+  padding-left: 80px;
+}
+#title{
+  color: #fff;
+}
+.www{
+  font-family: 'Monoton', cursive;
+  font-size: 8rem;
+  line-height : 1.5;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+.btt{
+  padding-right: 50px;
+}
+.media{
+  padding-top: 55px;
+}
+.ic{
+  padding-right: 155px;
+}
+.yuu{
+  font-stretch: expanded;
+}
+.header{
+  background-image: url("gg.gif");
+  -webkit-background-size:cover;
+  background-position: center;
+}
+h2{
+  position: absolute;
+}
+.image{
+  margin-left: 0;
+  padding-right: 300px;
+  margin-bottom: 100px;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #7289DA;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family:'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #696969;
+}
+
+.button:active {
+  background: #00008b;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+
+
+.button1{
+  background-color: transparent;
+  height : 50px;
+  overflow: hidden;
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  border: 1px solid #3498db;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family:'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align : center;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+  color : white;
+  transition : .3s;
+}
+.btnTwo {
+  position : relative;
+  width : 100px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #26A69A;
+  left : -250px;
+  transition : .3s;
+  margin-top : 63px;
+  margin-right : -60px;
+}
+
+
+.button1:hover .button__text{ /*When hovering over .button change .btnText*/
+ margin-left : 65px;
+  background-color: rgb(270,160,0);
+}
+.button1:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}
+
+.nut:hover {
+transform: scale(1.7);
+}
